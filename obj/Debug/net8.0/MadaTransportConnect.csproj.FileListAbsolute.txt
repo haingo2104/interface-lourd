@@ -1,0 +1,14 @@
+D:\cours_M1\Projet-tranversal\MadaTransportConnect\bin\Debug\net8.0\MadaTransportConnect.exe
+D:\cours_M1\Projet-tranversal\MadaTransportConnect\bin\Debug\net8.0\MadaTransportConnect.deps.json
+D:\cours_M1\Projet-tranversal\MadaTransportConnect\bin\Debug\net8.0\MadaTransportConnect.runtimeconfig.json
+D:\cours_M1\Projet-tranversal\MadaTransportConnect\bin\Debug\net8.0\MadaTransportConnect.dll
+D:\cours_M1\Projet-tranversal\MadaTransportConnect\bin\Debug\net8.0\MadaTransportConnect.pdb
+D:\cours_M1\Projet-tranversal\MadaTransportConnect\obj\Debug\net8.0\MadaTransportConnect.GeneratedMSBuildEditorConfig.editorconfig
+D:\cours_M1\Projet-tranversal\MadaTransportConnect\obj\Debug\net8.0\MadaTransportConnect.AssemblyInfoInputs.cache
+D:\cours_M1\Projet-tranversal\MadaTransportConnect\obj\Debug\net8.0\MadaTransportConnect.AssemblyInfo.cs
+D:\cours_M1\Projet-tranversal\MadaTransportConnect\obj\Debug\net8.0\MadaTransportConnect.csproj.CoreCompileInputs.cache
+D:\cours_M1\Projet-tranversal\MadaTransportConnect\obj\Debug\net8.0\MadaTransportConnect.dll
+D:\cours_M1\Projet-tranversal\MadaTransportConnect\obj\Debug\net8.0\refint\MadaTransportConnect.dll
+D:\cours_M1\Projet-tranversal\MadaTransportConnect\obj\Debug\net8.0\MadaTransportConnect.pdb
+D:\cours_M1\Projet-tranversal\MadaTransportConnect\obj\Debug\net8.0\MadaTransportConnect.genruntimeconfig.cache
+D:\cours_M1\Projet-tranversal\MadaTransportConnect\obj\Debug\net8.0\ref\MadaTransportConnect.dll
