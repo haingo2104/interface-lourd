@@ -13,7 +13,7 @@ using System.Reflection;
 [assembly: System.Reflection.AssemblyCompanyAttribute("MadaTransportConnect")]
 [assembly: System.Reflection.AssemblyConfigurationAttribute("Debug")]
 [assembly: System.Reflection.AssemblyFileVersionAttribute("1.0.0.0")]
-[assembly: System.Reflection.AssemblyInformationalVersionAttribute("1.0.0+71889da8992735caaffb5887ec5bc6e2160698e5")]
+[assembly: System.Reflection.AssemblyInformationalVersionAttribute("1.0.0+30f64553221467412b73ed17c3b6ae8482fc5ee6")]
 [assembly: System.Reflection.AssemblyProductAttribute("MadaTransportConnect")]
 [assembly: System.Reflection.AssemblyTitleAttribute("MadaTransportConnect")]
 [assembly: System.Reflection.AssemblyVersionAttribute("1.0.0.0")]
