@@ -7,12 +7,13 @@ namespace MadaTransportConnect.Forms
 {
     public class AddVehicleForm : Form
     {
-        private TextBox txtRegistration;
-        private TextBox txtModel;
-        private NumericUpDown numCapacity;
-        private ComboBox comboStatus;
-        private Button btnSave;
-        private Button btnCancel;
+        // Champs WinForms initialisés avec null! pour supprimer les warnings CS8618
+        private TextBox txtRegistration = null!;
+        private TextBox txtModel = null!;
+        private NumericUpDown numCapacity = null!;
+        private ComboBox comboStatus = null!;
+        private Button btnSave = null!;
+        private Button btnCancel = null!;
 
         private readonly Repository<Vehicle> _vehicleRepo;
 
@@ -46,19 +47,20 @@ namespace MadaTransportConnect.Forms
             btnSave.Click += BtnSave_Click;
 
             btnCancel = new Button() { Text = "Annuler", Top = 200, Left = 250 };
-            btnCancel.Click += (s, e) => this.Close();
+            btnCancel.Click += (object? s, EventArgs e) => this.Close();
 
             this.Controls.AddRange(new Control[] { lbl1, txtRegistration, lbl2, txtModel, lbl3, numCapacity, lbl4, comboStatus, btnSave, btnCancel });
         }
 
-        private void BtnSave_Click(object sender, EventArgs e)
+        private void BtnSave_Click(object? sender, EventArgs e)
         {
             var vehicle = new Vehicle()
             {
+                Id = Guid.NewGuid().ToString(),
                 RegistrationNumber = txtRegistration.Text,
                 Model = txtModel.Text,
                 Capacity = (int)numCapacity.Value,
-                Status = comboStatus.SelectedItem.ToString()
+                Status = comboStatus.SelectedItem?.ToString() ?? "Active" // sécurité null
             };
 
             _vehicleRepo.Insert(vehicle);

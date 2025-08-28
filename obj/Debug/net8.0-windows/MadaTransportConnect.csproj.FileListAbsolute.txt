@@ -21,3 +21,4 @@ D:\cours_M1\Projet-tranversal\MadaTransportConnect\bin\Debug\net8.0-windows\Shar
 D:\cours_M1\Projet-tranversal\MadaTransportConnect\bin\Debug\net8.0-windows\Snappier.dll
 D:\cours_M1\Projet-tranversal\MadaTransportConnect\bin\Debug\net8.0-windows\ZstdSharp.dll
 D:\cours_M1\Projet-tranversal\MadaTransportConnect\obj\Debug\net8.0-windows\MadaTran.B3070924.Up2Date
+D:\cours_M1\Projet-tranversal\MadaTransportConnect\obj\Debug\net8.0-windows\MadaTransportConnect.sourcelink.json

@@ -2,19 +2,22 @@ using MongoDB.Bson;
 using MongoDB.Bson.Serialization.Attributes;
 using System;
 
-namespace MadaTransportConnect.Models
+public class Reservation
 {
-    public class Reservation
-    {
-        [BsonId]
-        [BsonRepresentation(BsonType.ObjectId)]
-        public string Id { get; set; }
+    [BsonId]
+    [BsonRepresentation(BsonType.ObjectId)]
+    public required string Id { get; set; }
 
-        public string TripId { get; set; }
-        public string PassengerName { get; set; }
-        public string Phone { get; set; }
-        public int SeatsBooked { get; set; }
-        public DateTime CreatedAt { get; set; } = DateTime.UtcNow;
-        public string Status { get; set; } 
-    }
+    public required string TripId { get; set; }
+    public required string PassengerName { get; set; }
+
+    // soit on rend nullable
+    public string? Phone { get; set; }
+
+    // ou on lui donne une valeur par défaut
+    // public string Phone { get; set; } = string.Empty;
+
+    public int SeatsBooked { get; set; }
+    public DateTime CreatedAt { get; set; } = DateTime.UtcNow;
+    public required string Status { get; set; }
 }

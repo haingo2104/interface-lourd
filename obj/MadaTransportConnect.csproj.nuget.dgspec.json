@@ -43,6 +43,10 @@
         "net8.0-windows7.0": {
           "targetAlias": "net8.0-windows",
           "dependencies": {
+            "MongoDB.Bson": {
+              "target": "Package",
+              "version": "[3.4.3, )"
+            },
             "MongoDB.Driver": {
               "target": "Package",
               "version": "[3.4.3, )"

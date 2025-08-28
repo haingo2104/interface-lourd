@@ -8,12 +8,11 @@ namespace MadaTransportConnect.Models
     {
         [BsonId]
         [BsonRepresentation(BsonType.ObjectId)]
-        public string Id { get; set; }
-
-        public string RegistrationNumber { get; set; }
-        public string Model { get; set; }
+        public required string Id { get; set; }
+        public required string RegistrationNumber { get; set; }
+        public required string Model { get; set; }
         public int Capacity { get; set; }
-        public string Status { get; set; } 
+        public required string Status { get; set; }
         public DateTime CreatedAt { get; set; } = DateTime.UtcNow;
     }
 }
