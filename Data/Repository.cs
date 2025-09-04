@@ -2,6 +2,7 @@ using MongoDB.Driver;
 using System.Collections.Generic;
 using MadaTransportConnect.Models;
 using MadaTransportConnect.Data;
+using MongoDB.Bson;
 
 namespace MadaTransportConnect.Data
 {
@@ -23,5 +24,17 @@ namespace MadaTransportConnect.Data
         {
             return _collection.Find(_ => true).ToList();
         }
+        public T GetById(ObjectId id)
+        {
+            var filter = Builders<T>.Filter.Eq("Id", id);
+            return _collection.Find(filter).FirstOrDefault();
+        }
+        public void Update(string id, T entity)
+        {
+            var objectId = ObjectId.Parse(id);
+            var filter = Builders<T>.Filter.Eq("_id", objectId);
+            _collection.ReplaceOne(filter, entity);
+        }
+
     }
 }

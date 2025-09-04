@@ -8,7 +8,8 @@ namespace MadaTransportConnect.Models
     {
         [BsonId]
         [BsonRepresentation(BsonType.ObjectId)]
-        public required string Id { get; set; }
+        public ObjectId Id { get; set; }   // ⚡ ObjectId directement (pas string)
+
         public required string RegistrationNumber { get; set; }
         public required string Model { get; set; }
         public int Capacity { get; set; }

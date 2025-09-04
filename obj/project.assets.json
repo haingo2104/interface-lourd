@@ -600,19 +600,19 @@
     ]
   },
   "packageFolders": {
-    "C:\\Users\\SITRAKA\\.nuget\\packages\\": {}
+    "C:\\Users\\USER\\.nuget\\packages\\": {}
   },
   "project": {
     "version": "1.0.0",
     "restore": {
-      "projectUniqueName": "D:\\cours_M1\\Projet-tranversal\\MadaTransportConnect\\MadaTransportConnect.csproj",
+      "projectUniqueName": "E:\\FELANA\\ITU_M1\\transversal\\Interface_Lours_transport\\interface-lourd\\MadaTransportConnect.csproj",
       "projectName": "MadaTransportConnect",
-      "projectPath": "D:\\cours_M1\\Projet-tranversal\\MadaTransportConnect\\MadaTransportConnect.csproj",
-      "packagesPath": "C:\\Users\\SITRAKA\\.nuget\\packages\\",
-      "outputPath": "D:\\cours_M1\\Projet-tranversal\\MadaTransportConnect\\obj\\",
+      "projectPath": "E:\\FELANA\\ITU_M1\\transversal\\Interface_Lours_transport\\interface-lourd\\MadaTransportConnect.csproj",
+      "packagesPath": "C:\\Users\\USER\\.nuget\\packages\\",
+      "outputPath": "E:\\FELANA\\ITU_M1\\transversal\\Interface_Lours_transport\\interface-lourd\\obj\\",
       "projectStyle": "PackageReference",
       "configFilePaths": [
-        "C:\\Users\\SITRAKA\\AppData\\Roaming\\NuGet\\NuGet.Config"
+        "C:\\Users\\USER\\AppData\\Roaming\\NuGet\\NuGet.Config"
       ],
       "originalTargetFrameworks": [
         "net8.0-windows"
@@ -669,7 +669,7 @@
             "privateAssets": "none"
           }
         },
-        "runtimeIdentifierGraphPath": "C:\\Program Files\\dotnet\\sdk\\8.0.413/PortableRuntimeIdentifierGraph.json"
+        "runtimeIdentifierGraphPath": "C:\\Program Files\\dotnet\\sdk\\8.0.405/PortableRuntimeIdentifierGraph.json"
       }
     }
   }

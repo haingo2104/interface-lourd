@@ -10,8 +10,8 @@ namespace MadaTransportConnect
         [STAThread]
         static void Main()
         {
-            string conn = "mongodb+srv://USER:PWD@CLUSTER.mongodb.net/?retryWrites=true&w=majority"; 
-            string dbName = "madatransport";
+            string conn = "mongodb://localhost:27017"; 
+            string dbName = "transport";
 
             var ctx = new MongoDbContext(conn, dbName);
 

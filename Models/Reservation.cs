@@ -6,9 +6,9 @@ public class Reservation
 {
     [BsonId]
     [BsonRepresentation(BsonType.ObjectId)]
-    public required string Id { get; set; }
+    public ObjectId Id { get; set; } 
 
-    public required string TripId { get; set; }
+    public ObjectId TripId { get; set; }
     public required string PassengerName { get; set; }
 
     // soit on rend nullable

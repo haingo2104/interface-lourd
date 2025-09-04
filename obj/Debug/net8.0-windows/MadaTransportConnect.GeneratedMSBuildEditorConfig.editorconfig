@@ -14,6 +14,6 @@ build_property.PlatformNeutralAssembly =
 build_property.EnforceExtendedAnalyzerRules = 
 build_property._SupportedPlatformList = Linux,macOS,Windows
 build_property.RootNamespace = MadaTransportConnect
-build_property.ProjectDir = D:\cours_M1\Projet-tranversal\MadaTransportConnect\
+build_property.ProjectDir = E:\FELANA\ITU_M1\transversal\Interface_Lours_transport\interface-lourd\
 build_property.EnableComHosting = 
 build_property.EnableGeneratedComInterfaceComImportInterop = 

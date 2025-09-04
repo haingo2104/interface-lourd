@@ -55,12 +55,11 @@ namespace MadaTransportConnect.Forms
         private void BtnSave_Click(object? sender, EventArgs e)
         {
             var vehicle = new Vehicle()
-            {
-                Id = Guid.NewGuid().ToString(),
+           {
                 RegistrationNumber = txtRegistration.Text,
                 Model = txtModel.Text,
                 Capacity = (int)numCapacity.Value,
-                Status = comboStatus.SelectedItem?.ToString() ?? "Active" // sécurité null
+                Status = comboStatus.SelectedItem.ToString()
             };
 
             _vehicleRepo.Insert(vehicle);
